@@ -1,6 +1,6 @@
 {
   "name": "@zcorky/koa-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cahe hits for koa",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -65,10 +65,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@zcorky/is": "^1.0.1",
-    "@zcorky/lru": "^1.0.2",
-    "debug": "^4.1.0",
-    "ms": "^2.1.1",
     "winston": "^3.1.0"
   }
 }

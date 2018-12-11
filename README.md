@@ -1,27 +1,25 @@
-# koa-logger
+# logger
 
-[![NPM version](https://img.shields.io/npm/v/@zcorky/koa-logger.svg?style=flat)](https://www.npmjs.com/package/@zcorky/koa-logger)
-[![Coverage Status](https://img.shields.io/coveralls/zcorky/koa-logger.svg?style=flat)](https://coveralls.io/r/zcorky/koa-logger)
-[![Dependencies](https://david-dm.org/@zcorky/koa-logger/status.svg)](https://david-dm.org/@zcorky/koa-logger)
-[![Build Status](https://travis-ci.com/zcorky/koa-logger.svg?branch=master)](https://travis-ci.com/zcorky/koa-logger)
-![license](https://img.shields.io/github/license/zcorky/koa-logger.svg)
-[![issues](https://img.shields.io/github/issues/zcorky/koa-logger.svg)](https://github.com/zcorky/koa-logger/issues)
+[![NPM version](https://img.shields.io/npm/v/@koex/logger.svg?style=flat)](https://www.npmjs.com/package/@koex/logger)
+[![Coverage Status](https://img.shields.io/coveralls/koexjs/logger.svg?style=flat)](https://coveralls.io/r/koexjs/logger)
+[![Dependencies](https://img.shields.io/david/koexjs/logger.svg)](https://github.com/koexjs/logger)
+[![Build Status](https://travis-ci.com/koexjs/logger.svg?branch=master)](https://travis-ci.com/koexjs/logger)
+![license](https://img.shields.io/github/license/koexjs/logger.svg)
+[![issues](https://img.shields.io/github/issues/koexjs/logger.svg)](https://github.com/koexjs/logger/issues)
 
-> Deep Diff & Patch in js, maybe data visition timeline json data is common for use.
-> Diff => CREATE / UPDATE / DELETE / UNCHANGE Data.
-> Patch => Immutable Philosophy Data.
+> logger for koa extend.
 
 ### Install
 
 ```
-$ npm install @zcorky/koa-logger
+$ npm install @koex/logger
 ```
 
 ### Usage
 
 ```javascript
 // See more in test
-import logger from '@zcorky/koa-logger';
+import logger from '@koex/logger';
 
 import * as Koa from 'koa';
 const app = new Koa();

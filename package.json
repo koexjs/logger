@@ -1,10 +1,10 @@
 {
-  "name": "@zcorky/koa-logger",
-  "version": "0.0.2",
-  "description": "cahe hits for koa",
+  "name": "@koex/logger",
+  "version": "0.0.1",
+  "description": "logger for koa extend",
   "main": "lib/index.js",
   "module": "lib/index.js",
-  "repository": "https://github.com/zcorky/koa-logger",
+  "repository": "https://github.com/koexjs/logger",
   "author": "Zero",
   "license": "MIT",
   "scripts": {

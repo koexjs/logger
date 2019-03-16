@@ -35,7 +35,7 @@ export default (options: Options = {}) => {
     ],
   });
 
-  return async function koaLogger(ctx: Context, next: () => Promise<void>) {
+  return async function koexLogger(ctx: Context, next: () => Promise<void>) {
     if (!ctx.logger) {
       ctx.logger = logger;
     }
